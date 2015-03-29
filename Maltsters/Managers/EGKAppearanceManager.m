@@ -45,12 +45,12 @@
     [[UINavigationBar appearance] setTintColor:self.brandWhite];
     
     NSDictionary *titleText = @{ NSForegroundColorAttributeName: self.brandWhite,
-                                 NSFontAttributeName: [UIFont fontWithName:@"Clear Sans Light" size:20.0f]};
+                                 NSFontAttributeName: [UIFont fontWithName:@"Clear Sans" size:18.0f]};
     
     [[UINavigationBar appearance] setTitleTextAttributes:titleText];
     
     NSDictionary *backText = @{ NSForegroundColorAttributeName: self.brandWhite,
-                                NSFontAttributeName: [UIFont fontWithName:@"Clear Sans" size:16.0f]};
+                                NSFontAttributeName: [UIFont fontWithName:@"Clear Sans Light" size:18.0f]};
     
     [[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:backText
                                                                                             forState:UIControlStateNormal];
