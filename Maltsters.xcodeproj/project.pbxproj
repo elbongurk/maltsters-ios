@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		76CF33FD1846878C17A03034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F931B37A701D8C053AEDCE65 /* main.m */; };
+		7E7718021AC8B061002E96A3 /* EGKAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7718011AC8B061002E96A3 /* EGKAppearanceManager.m */; };
 		7EB25E141AC8652A0085A977 /* EGKAnalysisItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E041AC865290085A977 /* EGKAnalysisItemCell.m */; };
 		7EB25E151AC8652A0085A977 /* EGLotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E061AC8652A0085A977 /* EGLotCell.m */; };
 		7EB25E161AC8652A0085A977 /* EGKMaltsterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E081AC8652A0085A977 /* EGKMaltsterCell.m */; };
@@ -64,6 +65,8 @@
 		73F002690B9B7AA0B181BB5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		74205434E09F4DB3E8AF46A6 /* Maltsters-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Maltsters-Prefix.pch"; sourceTree = "<group>"; };
 		7CC8496120A9D259A8799E45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7718001AC8B061002E96A3 /* EGKAppearanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKAppearanceManager.h; sourceTree = "<group>"; };
+		7E7718011AC8B061002E96A3 /* EGKAppearanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKAppearanceManager.m; sourceTree = "<group>"; };
 		7EB25E031AC865290085A977 /* EGKAnalysisItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKAnalysisItemCell.h; sourceTree = "<group>"; };
 		7EB25E041AC865290085A977 /* EGKAnalysisItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKAnalysisItemCell.m; sourceTree = "<group>"; };
 		7EB25E051AC865290085A977 /* EGLotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGLotCell.h; sourceTree = "<group>"; };
@@ -264,6 +267,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		7E7717FF1AC8B03D002E96A3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7E7718001AC8B061002E96A3 /* EGKAppearanceManager.h */,
+				7E7718011AC8B061002E96A3 /* EGKAppearanceManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		7EB25E021AC865290085A977 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +400,7 @@
 		D28EE30FA1474CEFFB990646 /* Maltsters */ = {
 			isa = PBXGroup;
 			children = (
+				7E7717FF1AC8B03D002E96A3 /* Managers */,
 				7EB25E021AC865290085A977 /* Cells */,
 				7EB25E0B1AC8652A0085A977 /* Clients */,
 				7EB25E0E1AC8652A0085A977 /* DataSources */,
@@ -627,6 +640,7 @@
 				7EB25E1A1AC8652A0085A977 /* EGKAppDelegate.m in Sources */,
 				DA5ED60CE307F536BA8638AC /* LaunchScreen.xib in Sources */,
 				7EB25E261AC8654F0085A977 /* EGMalt.m in Sources */,
+				7E7718021AC8B061002E96A3 /* EGKAppearanceManager.m in Sources */,
 				7EB25E241AC8654F0085A977 /* EGLot.m in Sources */,
 				7EB25E141AC8652A0085A977 /* EGKAnalysisItemCell.m in Sources */,
 				76CF33FD1846878C17A03034 /* main.m in Sources */,

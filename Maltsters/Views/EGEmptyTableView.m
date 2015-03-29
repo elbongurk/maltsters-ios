@@ -7,6 +7,7 @@
 //
 
 #import "EGEmptyTableView.h"
+#import "EGKAppearanceManager.h"
 
 @interface EGEmptyTableView()
 
@@ -69,9 +70,8 @@
 
 - (void)setupRefreshButton
 {
-    UIColor *brandGreen = [UIColor colorWithRed:0.0f green:232/255.0f blue:195/255.0f alpha:1.0f];
     _refreshButton.layer.borderWidth = 2.0f;
-    _refreshButton.layer.borderColor = brandGreen.CGColor;
+    _refreshButton.layer.borderColor = [[EGKAppearanceManager sharedManager] brandGreen].CGColor;
 }
 
 - (void)updateConstraints
