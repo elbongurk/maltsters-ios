@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -12,23 +10,48 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-              <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maltsters" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
-                    <rect key="frame" x="20" y="140" width="440" height="43"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQb-a2-czq">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="2EB-ia-U69"/>
+                    </constraints>
+                    <color key="barTintColor" red="0.0" green="0.90980392156862744" blue="0.76470588235294112" alpha="1" colorSpace="calibratedRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem id="d7v-s8-c52"/>
+                    </items>
+                </navigationBar>
+                <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="maltsters" translatesAutoresizingMaskIntoConstraints="NO" id="Gw5-oB-nTP">
+                    <rect key="frame" x="230" y="198" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="2eJ-Dz-gqw"/>
+                        <constraint firstAttribute="width" constant="20" id="HYG-FO-vrM"/>
+                    </constraints>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="1" id="5cJ-9S-tgC"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="OiK-JM-ZQA"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
-                <constraint firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="20" id="t8p-zt-5Ot"/>
+                <constraint firstAttribute="trailing" secondItem="AQb-a2-czq" secondAttribute="trailing" id="4Ue-2Y-Hbi"/>
+                <constraint firstItem="AQb-a2-czq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7DX-Xj-YYv"/>
+                <constraint firstItem="AQb-a2-czq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EHV-cI-p0P"/>
+                <constraint firstAttribute="centerX" secondItem="Gw5-oB-nTP" secondAttribute="centerX" id="ZfB-0Z-3gj"/>
+                <constraint firstAttribute="centerY" secondItem="Gw5-oB-nTP" secondAttribute="centerY" constant="32" id="ka6-Jm-2x7"/>
+                <constraint firstItem="AQb-a2-czq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wO6-Zc-n3Q"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="EHV-cI-p0P"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="548" y="455"/>
         </view>
     </objects>
+    <resources>
+        <image name="maltsters" width="8" height="20"/>
+    </resources>
 </document>

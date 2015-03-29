@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C3D4AAC8B4EBDCAFF2F93BE1"
-               BuildableName = "UnitTests.octest"
+               BuildableName = "UnitTests.xctest"
                BlueprintName = "UnitTests"
                ReferencedContainer = "container:Maltsters.xcodeproj">
             </BuildableReference>
@@ -58,9 +58,8 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <AdditionalOptions>
-      </AdditionalOptions>
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14E99E67379229C2485A76A9"
@@ -69,6 +68,8 @@
             ReferencedContainer = "container:Maltsters.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -76,7 +77,8 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "14E99E67379229C2485A76A9"

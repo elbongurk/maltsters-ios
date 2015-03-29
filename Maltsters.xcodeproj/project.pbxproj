@@ -8,9 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		76CF33FD1846878C17A03034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F931B37A701D8C053AEDCE65 /* main.m */; };
+		7EB25E141AC8652A0085A977 /* EGKAnalysisItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E041AC865290085A977 /* EGKAnalysisItemCell.m */; };
+		7EB25E151AC8652A0085A977 /* EGLotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E061AC8652A0085A977 /* EGLotCell.m */; };
+		7EB25E161AC8652A0085A977 /* EGKMaltsterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E081AC8652A0085A977 /* EGKMaltsterCell.m */; };
+		7EB25E171AC8652A0085A977 /* EGMaltCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E0A1AC8652A0085A977 /* EGMaltCell.m */; };
+		7EB25E181AC8652A0085A977 /* EGKMaltstersClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E0D1AC8652A0085A977 /* EGKMaltstersClient.m */; };
+		7EB25E191AC8652A0085A977 /* EGArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E101AC8652A0085A977 /* EGArrayDataSource.m */; };
+		7EB25E1A1AC8652A0085A977 /* EGKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E131AC8652A0085A977 /* EGKAppDelegate.m */; };
+		7EB25E231AC8654F0085A977 /* EGAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E1C1AC8654F0085A977 /* EGAnalysis.m */; };
+		7EB25E241AC8654F0085A977 /* EGLot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E1E1AC8654F0085A977 /* EGLot.m */; };
+		7EB25E251AC8654F0085A977 /* EGKMaltster.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E201AC8654F0085A977 /* EGKMaltster.m */; };
+		7EB25E261AC8654F0085A977 /* EGMalt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E221AC8654F0085A977 /* EGMalt.m */; };
+		7EB25E291AC865670085A977 /* EGKAnalysisItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E281AC865670085A977 /* EGKAnalysisItem.m */; };
+		7EB25E361AC865720085A977 /* EGAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E2B1AC865720085A977 /* EGAnalysisViewController.m */; };
+		7EB25E371AC865720085A977 /* EGLotsSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E2D1AC865720085A977 /* EGLotsSearchViewController.m */; };
+		7EB25E381AC865720085A977 /* EGLotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E2F1AC865720085A977 /* EGLotsViewController.m */; };
+		7EB25E391AC865720085A977 /* EGKMaltstersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E311AC865720085A977 /* EGKMaltstersViewController.m */; };
+		7EB25E3A1AC865720085A977 /* EGMaltsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E331AC865720085A977 /* EGMaltsViewController.m */; };
+		7EB25E3B1AC865720085A977 /* EGMaltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E351AC865720085A977 /* EGMaltViewController.m */; };
+		7EB25E3E1AC865830085A977 /* EGEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB25E3D1AC865830085A977 /* EGEmptyTableView.m */; };
+		7EB25E401AC8671F0085A977 /* EmptyTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E3F1AC8671F0085A977 /* EmptyTableView.xib */; };
+		7EB25E4A1AC867910085A977 /* ClearSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E421AC867910085A977 /* ClearSans-Bold.ttf */; };
+		7EB25E4B1AC867910085A977 /* ClearSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E431AC867910085A977 /* ClearSans-BoldItalic.ttf */; };
+		7EB25E4C1AC867910085A977 /* ClearSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E441AC867910085A977 /* ClearSans-Italic.ttf */; };
+		7EB25E4D1AC867910085A977 /* ClearSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E451AC867910085A977 /* ClearSans-Light.ttf */; };
+		7EB25E4E1AC867910085A977 /* ClearSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E461AC867910085A977 /* ClearSans-Medium.ttf */; };
+		7EB25E4F1AC867910085A977 /* ClearSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E471AC867910085A977 /* ClearSans-MediumItalic.ttf */; };
+		7EB25E501AC867910085A977 /* ClearSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E481AC867910085A977 /* ClearSans-Regular.ttf */; };
+		7EB25E511AC867910085A977 /* ClearSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB25E491AC867910085A977 /* ClearSans-Thin.ttf */; };
+		7F4899D774B5499663CF145C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F002690B9B7AA0B181BB5F /* libPods.a */; };
 		AB1DEA758020003B3BE38A23 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = E79E868DDFBF540549CFB385 /* Main.storyboard */; };
 		B1175AEFF0B6B9FC0E403B84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B588D2E0969D4CAFC1EBAB66 /* Images.xcassets */; };
-		CA79FD7ECCE8AAA23745138D /* EGKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530D43DBC2EBAD4FD525B47B /* EGKAppDelegate.m */; };
+		D7C251EF4D50EEE3A84D434C /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B46D8DE841E09EB9CA253335 /* libPods-unit_tests.a */; };
 		DA2F00BAC0905BA422D37CAB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54C5FFDA0A5CD00DCCAB6CAF /* Settings.bundle */; };
 		DA5ED60CE307F536BA8638AC /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 399BF1522796759197F0AC8B /* LaunchScreen.xib */; };
 		FA0D2FA39204BAEBD81554EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09AA47F0708BBDA234552CD /* Foundation.framework */; };
@@ -27,19 +56,70 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1444CEA2FC2ECC6FA6C9A1C2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		299CD48B0BC0B2A4BB40FE0A /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		399BF1522796759197F0AC8B /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		530D43DBC2EBAD4FD525B47B /* EGKAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EGKAppDelegate.m; sourceTree = "<group>"; };
+		4B0B13DEB68E46CFF614DD62 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		54C5FFDA0A5CD00DCCAB6CAF /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		73F002690B9B7AA0B181BB5F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		74205434E09F4DB3E8AF46A6 /* Maltsters-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Maltsters-Prefix.pch"; sourceTree = "<group>"; };
 		7CC8496120A9D259A8799E45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB25E031AC865290085A977 /* EGKAnalysisItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKAnalysisItemCell.h; sourceTree = "<group>"; };
+		7EB25E041AC865290085A977 /* EGKAnalysisItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKAnalysisItemCell.m; sourceTree = "<group>"; };
+		7EB25E051AC865290085A977 /* EGLotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGLotCell.h; sourceTree = "<group>"; };
+		7EB25E061AC8652A0085A977 /* EGLotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGLotCell.m; sourceTree = "<group>"; };
+		7EB25E071AC8652A0085A977 /* EGKMaltsterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKMaltsterCell.h; sourceTree = "<group>"; };
+		7EB25E081AC8652A0085A977 /* EGKMaltsterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKMaltsterCell.m; sourceTree = "<group>"; };
+		7EB25E091AC8652A0085A977 /* EGMaltCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMaltCell.h; sourceTree = "<group>"; };
+		7EB25E0A1AC8652A0085A977 /* EGMaltCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGMaltCell.m; sourceTree = "<group>"; };
+		7EB25E0C1AC8652A0085A977 /* EGKMaltstersClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKMaltstersClient.h; sourceTree = "<group>"; };
+		7EB25E0D1AC8652A0085A977 /* EGKMaltstersClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKMaltstersClient.m; sourceTree = "<group>"; };
+		7EB25E0F1AC8652A0085A977 /* EGArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGArrayDataSource.h; sourceTree = "<group>"; };
+		7EB25E101AC8652A0085A977 /* EGArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGArrayDataSource.m; sourceTree = "<group>"; };
+		7EB25E121AC8652A0085A977 /* EGKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKAppDelegate.h; sourceTree = "<group>"; };
+		7EB25E131AC8652A0085A977 /* EGKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKAppDelegate.m; sourceTree = "<group>"; };
+		7EB25E1B1AC8654F0085A977 /* EGAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGAnalysis.h; sourceTree = "<group>"; };
+		7EB25E1C1AC8654F0085A977 /* EGAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGAnalysis.m; sourceTree = "<group>"; };
+		7EB25E1D1AC8654F0085A977 /* EGLot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGLot.h; sourceTree = "<group>"; };
+		7EB25E1E1AC8654F0085A977 /* EGLot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGLot.m; sourceTree = "<group>"; };
+		7EB25E1F1AC8654F0085A977 /* EGKMaltster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKMaltster.h; sourceTree = "<group>"; };
+		7EB25E201AC8654F0085A977 /* EGKMaltster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKMaltster.m; sourceTree = "<group>"; };
+		7EB25E211AC8654F0085A977 /* EGMalt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMalt.h; sourceTree = "<group>"; };
+		7EB25E221AC8654F0085A977 /* EGMalt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGMalt.m; sourceTree = "<group>"; };
+		7EB25E271AC865670085A977 /* EGKAnalysisItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKAnalysisItem.h; sourceTree = "<group>"; };
+		7EB25E281AC865670085A977 /* EGKAnalysisItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKAnalysisItem.m; sourceTree = "<group>"; };
+		7EB25E2A1AC865720085A977 /* EGAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGAnalysisViewController.h; sourceTree = "<group>"; };
+		7EB25E2B1AC865720085A977 /* EGAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGAnalysisViewController.m; sourceTree = "<group>"; };
+		7EB25E2C1AC865720085A977 /* EGLotsSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGLotsSearchViewController.h; sourceTree = "<group>"; };
+		7EB25E2D1AC865720085A977 /* EGLotsSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGLotsSearchViewController.m; sourceTree = "<group>"; };
+		7EB25E2E1AC865720085A977 /* EGLotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGLotsViewController.h; sourceTree = "<group>"; };
+		7EB25E2F1AC865720085A977 /* EGLotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGLotsViewController.m; sourceTree = "<group>"; };
+		7EB25E301AC865720085A977 /* EGKMaltstersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGKMaltstersViewController.h; sourceTree = "<group>"; };
+		7EB25E311AC865720085A977 /* EGKMaltstersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGKMaltstersViewController.m; sourceTree = "<group>"; };
+		7EB25E321AC865720085A977 /* EGMaltsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMaltsViewController.h; sourceTree = "<group>"; };
+		7EB25E331AC865720085A977 /* EGMaltsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGMaltsViewController.m; sourceTree = "<group>"; };
+		7EB25E341AC865720085A977 /* EGMaltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMaltViewController.h; sourceTree = "<group>"; };
+		7EB25E351AC865720085A977 /* EGMaltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGMaltViewController.m; sourceTree = "<group>"; };
+		7EB25E3C1AC865830085A977 /* EGEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGEmptyTableView.h; sourceTree = "<group>"; };
+		7EB25E3D1AC865830085A977 /* EGEmptyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGEmptyTableView.m; sourceTree = "<group>"; };
+		7EB25E3F1AC8671F0085A977 /* EmptyTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyTableView.xib; sourceTree = "<group>"; };
+		7EB25E421AC867910085A977 /* ClearSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Bold.ttf"; sourceTree = "<group>"; };
+		7EB25E431AC867910085A977 /* ClearSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7EB25E441AC867910085A977 /* ClearSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Italic.ttf"; sourceTree = "<group>"; };
+		7EB25E451AC867910085A977 /* ClearSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Light.ttf"; sourceTree = "<group>"; };
+		7EB25E461AC867910085A977 /* ClearSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Medium.ttf"; sourceTree = "<group>"; };
+		7EB25E471AC867910085A977 /* ClearSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7EB25E481AC867910085A977 /* ClearSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Regular.ttf"; sourceTree = "<group>"; };
+		7EB25E491AC867910085A977 /* ClearSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClearSans-Thin.ttf"; sourceTree = "<group>"; };
 		8211D74C2DABD06FEC55833B /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F95B65B122086847A9AE115 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		B46D8DE841E09EB9CA253335 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B588D2E0969D4CAFC1EBAB66 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C91DB82EB782B3E4FC51BF1E /* Maltsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maltsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09AA47F0708BBDA234552CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2024DC1BE46ED9B85796412 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E2D911DFE316B0641DF90521 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E79E868DDFBF540549CFB385 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F6A3EFF8FEFC0AD1FE3D14DD /* EGKAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EGKAppDelegate.h; sourceTree = "<group>"; };
 		F931B37A701D8C053AEDCE65 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C251EF4D50EEE3A84D434C /* libPods-unit_tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0D2FA39204BAEBD81554EF /* Foundation.framework in Frameworks */,
+				7F4899D774B5499663CF145C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +147,14 @@
 		016940089202E878E2078129 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7EB25E1B1AC8654F0085A977 /* EGAnalysis.h */,
+				7EB25E1C1AC8654F0085A977 /* EGAnalysis.m */,
+				7EB25E1D1AC8654F0085A977 /* EGLot.h */,
+				7EB25E1E1AC8654F0085A977 /* EGLot.m */,
+				7EB25E1F1AC8654F0085A977 /* EGKMaltster.h */,
+				7EB25E201AC8654F0085A977 /* EGKMaltster.m */,
+				7EB25E211AC8654F0085A977 /* EGMalt.h */,
+				7EB25E221AC8654F0085A977 /* EGMalt.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -76,6 +166,7 @@
 				7540839DE2671D09E7FABC1B /* UnitTests */,
 				A55B9A79C5E813D581D6EA98 /* Frameworks */,
 				AE5B26D09B683B1AB1B25332 /* Products */,
+				713A82D74FCF9A35CB23DE8F /* Pods */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -107,6 +198,8 @@
 		25F4673D5F9886E872AD8669 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7EB25E3C1AC865830085A977 /* EGEmptyTableView.h */,
+				7EB25E3D1AC865830085A977 /* EGEmptyTableView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,6 +224,7 @@
 		6E0137AFB118CD02AEDB5C77 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7EB25E411AC867910085A977 /* Fonts */,
 				B588D2E0969D4CAFC1EBAB66 /* Images.xcassets */,
 				7F272D7EA469FD12D5B2A5C7 /* Storyboards */,
 				C4B60FD4680450272CF17795 /* Nibs */,
@@ -138,6 +232,17 @@
 				54C5FFDA0A5CD00DCCAB6CAF /* Settings.bundle */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		713A82D74FCF9A35CB23DE8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1444CEA2FC2ECC6FA6C9A1C2 /* Pods.release.xcconfig */,
+				D2024DC1BE46ED9B85796412 /* Pods.debug.xcconfig */,
+				4B0B13DEB68E46CFF614DD62 /* Pods-unit_tests.release.xcconfig */,
+				E2D911DFE316B0641DF90521 /* Pods-unit_tests.debug.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7540839DE2671D09E7FABC1B /* UnitTests */ = {
@@ -159,6 +264,63 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		7EB25E021AC865290085A977 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7EB25E031AC865290085A977 /* EGKAnalysisItemCell.h */,
+				7EB25E041AC865290085A977 /* EGKAnalysisItemCell.m */,
+				7EB25E051AC865290085A977 /* EGLotCell.h */,
+				7EB25E061AC8652A0085A977 /* EGLotCell.m */,
+				7EB25E071AC8652A0085A977 /* EGKMaltsterCell.h */,
+				7EB25E081AC8652A0085A977 /* EGKMaltsterCell.m */,
+				7EB25E091AC8652A0085A977 /* EGMaltCell.h */,
+				7EB25E0A1AC8652A0085A977 /* EGMaltCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7EB25E0B1AC8652A0085A977 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				7EB25E0C1AC8652A0085A977 /* EGKMaltstersClient.h */,
+				7EB25E0D1AC8652A0085A977 /* EGKMaltstersClient.m */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		7EB25E0E1AC8652A0085A977 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				7EB25E0F1AC8652A0085A977 /* EGArrayDataSource.h */,
+				7EB25E101AC8652A0085A977 /* EGArrayDataSource.m */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		7EB25E111AC8652A0085A977 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7EB25E121AC8652A0085A977 /* EGKAppDelegate.h */,
+				7EB25E131AC8652A0085A977 /* EGKAppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		7EB25E411AC867910085A977 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7EB25E421AC867910085A977 /* ClearSans-Bold.ttf */,
+				7EB25E431AC867910085A977 /* ClearSans-BoldItalic.ttf */,
+				7EB25E441AC867910085A977 /* ClearSans-Italic.ttf */,
+				7EB25E451AC867910085A977 /* ClearSans-Light.ttf */,
+				7EB25E461AC867910085A977 /* ClearSans-Medium.ttf */,
+				7EB25E471AC867910085A977 /* ClearSans-MediumItalic.ttf */,
+				7EB25E481AC867910085A977 /* ClearSans-Regular.ttf */,
+				7EB25E491AC867910085A977 /* ClearSans-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		7F272D7EA469FD12D5B2A5C7 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +332,8 @@
 		8B741FE22C71A46077219856 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7EB25E271AC865670085A977 /* EGKAnalysisItem.h */,
+				7EB25E281AC865670085A977 /* EGKAnalysisItem.m */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -178,6 +342,8 @@
 			isa = PBXGroup;
 			children = (
 				0A449D03B8B0F66109AB3CF2 /* iOS */,
+				73F002690B9B7AA0B181BB5F /* libPods.a */,
+				B46D8DE841E09EB9CA253335 /* libPods-unit_tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,6 +360,7 @@
 		C4B60FD4680450272CF17795 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				7EB25E3F1AC8671F0085A977 /* EmptyTableView.xib */,
 				399BF1522796759197F0AC8B /* LaunchScreen.xib */,
 			);
 			path = Nibs;
@@ -202,8 +369,18 @@
 		C95775E1219B79D7182B8990 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F6A3EFF8FEFC0AD1FE3D14DD /* EGKAppDelegate.h */,
-				530D43DBC2EBAD4FD525B47B /* EGKAppDelegate.m */,
+				7EB25E2A1AC865720085A977 /* EGAnalysisViewController.h */,
+				7EB25E2B1AC865720085A977 /* EGAnalysisViewController.m */,
+				7EB25E2C1AC865720085A977 /* EGLotsSearchViewController.h */,
+				7EB25E2D1AC865720085A977 /* EGLotsSearchViewController.m */,
+				7EB25E2E1AC865720085A977 /* EGLotsViewController.h */,
+				7EB25E2F1AC865720085A977 /* EGLotsViewController.m */,
+				7EB25E301AC865720085A977 /* EGKMaltstersViewController.h */,
+				7EB25E311AC865720085A977 /* EGKMaltstersViewController.m */,
+				7EB25E321AC865720085A977 /* EGMaltsViewController.h */,
+				7EB25E331AC865720085A977 /* EGMaltsViewController.m */,
+				7EB25E341AC865720085A977 /* EGMaltViewController.h */,
+				7EB25E351AC865720085A977 /* EGMaltViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -211,9 +388,12 @@
 		D28EE30FA1474CEFFB990646 /* Maltsters */ = {
 			isa = PBXGroup;
 			children = (
+				7EB25E021AC865290085A977 /* Cells */,
+				7EB25E0B1AC8652A0085A977 /* Clients */,
+				7EB25E0E1AC8652A0085A977 /* DataSources */,
+				7EB25E111AC8652A0085A977 /* Delegates */,
 				17D7A3262AD6ED4C95B66BD3 /* Categories */,
 				1ECAEC9F75D0E1910E93FB67 /* Protocols */,
-				D8A0BFFE4EAD98035798F0F7 /* Headers */,
 				016940089202E878E2078129 /* Models */,
 				8B741FE22C71A46077219856 /* ViewModels */,
 				C95775E1219B79D7182B8990 /* Controllers */,
@@ -221,13 +401,6 @@
 				6E0137AFB118CD02AEDB5C77 /* Resources */,
 			);
 			path = Maltsters;
-			sourceTree = "<group>";
-		};
-		D8A0BFFE4EAD98035798F0F7 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Headers;
 			sourceTree = "<group>";
 		};
 		FAF29A32F09C2FEFB5AF459F /* Helpers */ = {
@@ -244,11 +417,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D90B3BAE120ED701B321B8B1 /* Build configuration list for PBXNativeTarget "Maltsters" */;
 			buildPhases = (
+				F809D22621D2D5F23DA2898C /* Check Pods Manifest.lock */,
 				37E9A59D19D9BBA0D0DF5ECD /* Sources */,
 				729B1FF9200674D6E19C01DB /* Frameworks */,
 				D386CEFCEAFD558ED9FFC2A4 /* Resources */,
 				C0122698BDF70466674431BC /* Warn for TODO and FIXME comments */,
 				BFB6AF7A9B42FEA800097955 /* Set version number */,
+				8F56D16DE37A81D6ED454D25 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,9 +438,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C088B06630BFBD4C8D1ADD30 /* Build configuration list for PBXNativeTarget "UnitTests" */;
 			buildPhases = (
+				0E528CA38292A1312517C8CF /* Check Pods Manifest.lock */,
 				CD57BDCDF578F2531A219762 /* Sources */,
 				40A0B7966872744190FAD021 /* Frameworks */,
 				376E79CC51DC222C555A85D4 /* Resources */,
+				3583A3EB34F794CA14584D13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +463,11 @@
 				CLASSPREFIX = EGK;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Elbongurk;
+				TargetAttributes = {
+					14E99E67379229C2485A76A9 = {
+						DevelopmentTeam = 2E7MPACDN9;
+					};
+				};
 			};
 			buildConfigurationList = 3747741EA508654EEA0F3D1F /* Build configuration list for PBXProject "Maltsters" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -317,14 +499,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB25E501AC867910085A977 /* ClearSans-Regular.ttf in Resources */,
+				7EB25E4A1AC867910085A977 /* ClearSans-Bold.ttf in Resources */,
+				7EB25E4C1AC867910085A977 /* ClearSans-Italic.ttf in Resources */,
+				7EB25E4E1AC867910085A977 /* ClearSans-Medium.ttf in Resources */,
+				7EB25E511AC867910085A977 /* ClearSans-Thin.ttf in Resources */,
 				B1175AEFF0B6B9FC0E403B84 /* Images.xcassets in Resources */,
+				7EB25E401AC8671F0085A977 /* EmptyTableView.xib in Resources */,
+				7EB25E4B1AC867910085A977 /* ClearSans-BoldItalic.ttf in Resources */,
 				DA2F00BAC0905BA422D37CAB /* Settings.bundle in Resources */,
+				7EB25E4F1AC867910085A977 /* ClearSans-MediumItalic.ttf in Resources */,
+				7EB25E4D1AC867910085A977 /* ClearSans-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E528CA38292A1312517C8CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3583A3EB34F794CA14584D13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F56D16DE37A81D6ED454D25 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BFB6AF7A9B42FEA800097955 /* Set version number */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,6 +589,21 @@
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"swift|h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
 		};
+		F809D22621D2D5F23DA2898C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -360,10 +611,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA79FD7ECCE8AAA23745138D /* EGKAppDelegate.m in Sources */,
+				7EB25E161AC8652A0085A977 /* EGKMaltsterCell.m in Sources */,
+				7EB25E391AC865720085A977 /* EGKMaltstersViewController.m in Sources */,
+				7EB25E371AC865720085A977 /* EGLotsSearchViewController.m in Sources */,
 				AB1DEA758020003B3BE38A23 /* Main.storyboard in Sources */,
+				7EB25E151AC8652A0085A977 /* EGLotCell.m in Sources */,
+				7EB25E381AC865720085A977 /* EGLotsViewController.m in Sources */,
+				7EB25E181AC8652A0085A977 /* EGKMaltstersClient.m in Sources */,
+				7EB25E361AC865720085A977 /* EGAnalysisViewController.m in Sources */,
+				7EB25E171AC8652A0085A977 /* EGMaltCell.m in Sources */,
+				7EB25E3B1AC865720085A977 /* EGMaltViewController.m in Sources */,
+				7EB25E231AC8654F0085A977 /* EGAnalysis.m in Sources */,
+				7EB25E3A1AC865720085A977 /* EGMaltsViewController.m in Sources */,
+				7EB25E191AC8652A0085A977 /* EGArrayDataSource.m in Sources */,
+				7EB25E1A1AC8652A0085A977 /* EGKAppDelegate.m in Sources */,
 				DA5ED60CE307F536BA8638AC /* LaunchScreen.xib in Sources */,
+				7EB25E261AC8654F0085A977 /* EGMalt.m in Sources */,
+				7EB25E241AC8654F0085A977 /* EGLot.m in Sources */,
+				7EB25E141AC8652A0085A977 /* EGKAnalysisItemCell.m in Sources */,
 				76CF33FD1846878C17A03034 /* main.m in Sources */,
+				7EB25E3E1AC865830085A977 /* EGEmptyTableView.m in Sources */,
+				7EB25E251AC8654F0085A977 /* EGKMaltster.m in Sources */,
+				7EB25E291AC865670085A977 /* EGKAnalysisItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +656,7 @@
 /* Begin XCBuildConfiguration section */
 		1866C40C34B2E3848E33D5A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D911DFE316B0641DF90521 /* Pods-unit_tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maltsters.app/Maltsters";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -460,6 +730,7 @@
 		};
 		2A127E699AEBBA0360BAEAB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0B13DEB68E46CFF614DD62 /* Pods-unit_tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Maltsters.app/Maltsters";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -527,12 +798,19 @@
 		};
 		9BCE7ED42DA540A2D0BE5172 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1444CEA2FC2ECC6FA6C9A1C2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Maltsters/Resources/Other-Sources/Maltsters-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"ROOT_URL=@\\\"https://maltsters-production.herokuapp.com\\\"",
+				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "Maltsters/Resources/Other-Sources/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
@@ -554,8 +832,10 @@
 		};
 		CF81A6E341DF27BFD51D52F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2024DC1BE46ED9B85796412 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -565,6 +845,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					"ROOT_URL=@\\\"http://localhost:7000\\\"",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = "Maltsters/Resources/Other-Sources/Info.plist";
