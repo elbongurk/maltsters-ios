@@ -1,6 +1,6 @@
 # Maltsters #
 
-Proof of concept iOS app for displaying malt lot analysis data from maltsters.  Includes import scripts for data avaialble from [Country Malt Group](http://coa.countrymaltgroup.com/maltlot.asp).
+Proof of concept iOS app for displaying malt lot analysis data from maltsters.
 
 ## To Install ##
 
